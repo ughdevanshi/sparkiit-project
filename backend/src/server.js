@@ -56,14 +56,16 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Internal server error', details: err.message });
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log('================================================================');
-  console.log(` Spark IIT`);
-  console.log(` Full-Stack Server running at: http://localhost:${PORT}`);
-  console.log(` Frontend Static Path: ${frontendPath}`);
-  console.log(` Health Check API: http://localhost:${PORT}/api/health`);
-  console.log('================================================================');
-});
+if (require.main === module) {
+  // Start server
+  app.listen(PORT, () => {
+    console.log('================================================================');
+    console.log(` Spark IIT`);
+    console.log(` Full-Stack Server running at: http://localhost:${PORT}`);
+    console.log(` Frontend Static Path: ${frontendPath}`);
+    console.log(` Health Check API: http://localhost:${PORT}/api/health`);
+    console.log('================================================================');
+  });
+}
 
 module.exports = app;
