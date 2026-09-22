@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Spark IIT - Premier vocational training institute specializing in computer-based career courses, practical labs, and placement support.">
+  <meta name="keywords" content="computer courses, CCC, DCA, Tally Prime GST, Web Designing, Python Programming, Advanced Excel, DTP, Digital Marketing">
+  <meta name="theme-color" content="#0f2b5c">
+  <title>Spark IIT | Premier Computer Education Institute</title>
+
+  <!-- Favicon Emblem -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230f2b5c'><path d='M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM3.45 9L12 4.33 20.55 9 12 13.67 3.45 9zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z'/></svg>">
+
+  <!-- Google Fonts: Inter & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons 1.11 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom Corporate Navy & White Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/chatbot.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100" tabindex="0">
+
+  <!-- =========================================================================
+       TOP NOTIFICATION & HELPLINE BAR
+       ========================================================================= -->
+  <div class="top-contact-bar d-none d-md-block">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center gap-4">
+        <span><i class="bi bi-geo-alt-fill text-gold me-1"></i> Central Branch: Sector 14, Institutional Area, New Delhi</span>
+        <span><i class="bi bi-clock-fill text-gold me-1"></i> Mon – Sat: 8:00 AM – 7:30 PM</span>
+      </div>
+      <div class="d-flex align-items-center gap-3">
+        <a href="tel:+919876543210"><i class="bi bi-telephone-fill me-1"></i> +91 98765 43210</a>
+        <span class="text-white-50">|</span>
+        <a href="mailto:admissions@spark-iit.org"><i class="bi bi-envelope-fill me-1"></i> admissions@spark-iit.org</a>
+        <span class="text-white-50">|</span>
+        <button type="button" class="btn btn-sm btn-outline-light py-0 px-2 text-xs" id="openAdminViewerBtn" style="font-size: 0.75rem;">
+          <i class="bi bi-shield-lock me-1"></i> Admin Portal
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       STICKY NAVIGATION BAR
+       ========================================================================= -->
+  <nav class="navbar navbar-expand-lg navbar-custom sticky-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-3" href="#home">
+        <div class="brand-badge">
+          <i class="bi bi-mortarboard-fill"></i>
+        </div>
+        <div>
+          <h1 class="brand-title">Spark IIT</h1>
+        </div>
+      </a>
+
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-1">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#syllabus">Syllabus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#branch">Branch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#placement">Placement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <a class="btn btn-navy btn-sm px-3 shadow-sm text-white" href="#admission">
+              <i class="bi bi-pencil-square"></i> Apply Now
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========================================================================
+       1. HOME PAGE: HERO SECTION
+       ========================================================================= -->
+  <section class="hero-section" id="home">
+    <div class="container position-relative">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill mb-3" style="background: rgba(255, 255, 255, 0.15); border: 1px solid rgba(255, 255, 255, 0.25);">
+            <i class="bi bi-award-fill text-gold"></i>
+            <span class="text-xs fw-semibold text-white tracking-wide" style="font-size: 0.85rem;">ISO 9001:2015 Certified Vocational Institute</span>
+          </div>
+
+          <h1 class="hero-title">
+            Empowering Careers Through Skill-Based Computer Training
+          </h1>
+
+          <p class="hero-lead">
+            Spark IIT offers industry-accredited computer courses designed for high employability. Learn on modern PC workstations with certified faculty, practical projects, and 100% placement support.
+          </p>
+
+          <div class="d-flex flex-wrap gap-3 mb-4">
+            <a href="#admission" class="btn btn-white text-navy px-4 py-3 shadow-lg">
+              <i class="bi bi-send-check-fill me-2"></i> Apply for Admission 2026
+            </a>
+            <a href="#courses" class="btn btn-outline-light px-4 py-3">
+              <i class="bi bi-grid-3x3-gap-fill me-2"></i> Explore All Courses
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="pt-3 border-top border-light border-opacity-25 d-flex flex-wrap gap-4 text-light text-sm">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-check-circle-fill text-gold"></i>
+              <span>1:1 Lab Computer Ratio</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-check-circle-fill text-gold"></i>
+              <span>Morning / Eve Batches</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-check-circle-fill text-gold"></i>
+              <span>QR-Verifiable Diplomas</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 mt-5 mt-lg-0">
+          <div class="position-relative">
+            <div class="p-3 bg-white rounded-4 shadow-lg border border-2 border-white" style="transform: rotate(1deg);">
+              <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80" alt="Students in computer lab" class="img-fluid rounded-3 w-100 shadow-sm" style="height: 380px; object-fit: cover;">
+              <div class="d-flex justify-content-between align-items-center mt-3 px-2">
+                <div>
+                  <h6 class="fw-bold mb-0 text-navy">Admissions Open 2026-27</h6>
+                  <small class="text-muted">Limited Seats per Practical Batch</small>
+                </div>
+                <span class="badge bg-success px-3 py-2">Active Enrollment</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       1. HOME PAGE: HIGHLIGHTS & KEY STATS
+       ========================================================================= -->
+  <section class="container">
+    <div class="highlights-card">
+      <div class="row g-4 divide-y divide-md-0">
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Years of Excellence</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <div class="stat-number">12,500+</div>
+            <div class="stat-label">Students Trained</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <div class="stat-number">9+</div>
+            <div class="stat-label">Industry Courses</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-item">
+            <div class="stat-number">85%+</div>
+            <div class="stat-label">Placement Assistance</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       2. ABOUT US SECTION
+       ========================================================================= -->
+  <section class="py-5 my-4" id="about">
+    <div class="container py-4">
+      <div class="text-center max-w-700 mx-auto mb-5">
+        <span class="section-tag"><i class="bi bi-info-circle-fill me-1"></i> About Spark IIT</span>
+        <h2 class="section-title">A Legacy of Technical Competence & Vocational Excellence</h2>
+        <p class="text-secondary">Founded with the mission to bridge the digital skills gap, Spark IIT provides practical, job-ready computer education accessible to all learners.</p>
+      </div>
+
+      <!-- Mission, Vision, History -->
+      <div class="row g-4 mb-5">
+        <div class="col-lg-4">
+          <div class="card-corporate">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="rounded-3 p-3 bg-navy-subtle text-navy fs-4">
+                <i class="bi bi-bullseye"></i>
+              </div>
+              <h4 class="fw-bold mb-0 text-navy">Our Mission</h4>
+            </div>
+            <p class="text-secondary mb-0">To deliver rigorous, practical computer education that transforms aspiring students into skilled, industry-ready professionals through hands-on lab training and ethical mentorship.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card-corporate">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="rounded-3 p-3 bg-navy-subtle text-navy fs-4">
+                <i class="bi bi-eye-fill"></i>
+              </div>
+              <h4 class="fw-bold mb-0 text-navy">Our Vision</h4>
+            </div>
+            <p class="text-secondary mb-0">To be a premier vocational institution recognized nationally for producing top-tier computer technicians, web creators, accountants, and software associates who drive digital growth.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card-corporate">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="rounded-3 p-3 bg-navy-subtle text-navy fs-4">
+                <i class="bi bi-clock-history"></i>
+              </div>
+              <h4 class="fw-bold mb-0 text-navy">Our History</h4>
+            </div>
+            <p class="text-secondary mb-0">Established over 15 years ago with a single 10-computer laboratory, Spark IIT has expanded into a full-scale vocational center having empowered more than 12,500 youth with career diplomas.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Why Choose Us (5 Pillars) -->
+      <div class="bg-light p-4 p-md-5 rounded-4 border mb-5">
+        <div class="row align-items-center">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <span class="badge bg-navy text-white px-3 py-1 mb-2">Institutional Advantage</span>
+            <h3 class="fw-bold text-navy mb-3">Why Choose Spark IIT For Your Computer Education?</h3>
+            <p class="text-secondary mb-4">We prioritize real-world computer lab practice over rote theory, ensuring you step into interviews with genuine portfolio artifacts and proven skills.</p>
+            <a href="#courses" class="btn btn-navy btn-sm"><i class="bi bi-arrow-right-circle me-1"></i> Browse All Courses</a>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="p-3 bg-white rounded-3 border h-100">
+                  <div class="d-flex align-items-center gap-2 mb-2 text-navy fw-bold">
+                    <i class="bi bi-person-badge-fill text-primary fs-5"></i>
+                    <span>Certified Trainers</span>
+                  </div>
+                  <p class="small text-muted mb-0">Instructors with an average of 8+ years corporate and classroom experience.</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="p-3 bg-white rounded-3 border h-100">
+                  <div class="d-flex align-items-center gap-2 mb-2 text-navy fw-bold">
+                    <i class="bi bi-pc-display text-primary fs-5"></i>
+                    <span>1:1 Practical Training</span>
+                  </div>
+                  <p class="small text-muted mb-0">Dedicated personal computer terminal for every single student during lab sessions.</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="p-3 bg-white rounded-3 border h-100">
+                  <div class="d-flex align-items-center gap-2 mb-2 text-navy fw-bold">
+                    <i class="bi bi-alarm-fill text-primary fs-5"></i>
+                    <span>Flexible Timings</span>
+                  </div>
+                  <p class="small text-muted mb-0">Morning, Afternoon, and Evening batches designed for college students and job holders.</p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="p-3 bg-white rounded-3 border h-100">
+                  <div class="d-flex align-items-center gap-2 mb-2 text-navy fw-bold">
+                    <i class="bi bi-wallet2 text-primary fs-5"></i>
+                    <span>Affordable Fees & EMI</span>
+                  </div>
+                  <p class="small text-muted mb-0">Subsidized vocational fee structures with zero-interest monthly installments.</p>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="p-3 bg-white rounded-3 border">
+                  <div class="d-flex align-items-center gap-2 mb-2 text-navy fw-bold">
+                    <i class="bi bi-briefcase-fill text-gold fs-5"></i>
+                    <span>Dedicated Placement Support</span>
+                  </div>
+                  <p class="small text-muted mb-0">Resume building, campus interview drives, mock tests, and hiring network connections.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Director's Message -->
+      <div class="card border rounded-4 shadow-sm overflow-hidden">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-4 bg-navy p-4 p-md-5 text-center text-white">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Director of Spark IIT" class="rounded-circle border border-4 border-white mb-3 shadow" style="width: 130px; height: 130px; object-fit: cover;">
+            <h5 class="fw-bold mb-1 text-white">Dr. K. R. Sharma</h5>
+            <p class="text-white-50 small mb-2">Director & Founder, Spark IIT</p>
+            <span class="badge bg-gold-subtle text-gold px-3 py-1">Ph.D. in Computer Applications</span>
+          </div>
+          <div class="col-md-8 p-4 p-md-5 bg-white">
+            <div class="mb-3 text-navy fs-3"><i class="bi bi-quote"></i></div>
+            <h4 class="fw-bold text-navy mb-3">Director's Message to Aspiring Students</h4>
+            <p class="text-secondary" style="font-size: 0.96rem; line-height: 1.7;">
+              "In today's fast-evolving economy, practical digital competence is the single biggest equalizer. At Spark IIT, our mandate has remained steadfast for over a decade: we do not merely teach software commands; we build problem-solving capability. Whether you want to master computerized accounting with Tally, develop responsive websites, or automate business workflows in Python, Spark IIT provides the guidance, modern lab infrastructure, and industry credentials you need to thrive."
+            </p>
+            <div class="d-flex align-items-center gap-2 text-muted small mt-3">
+              <i class="bi bi-patch-check-fill text-primary"></i> Certified Vocational Educator | Government Advisory Member
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       3. COURSES SECTION (ALL 9 COURSES)
+       ========================================================================= -->
+  <section class="py-5 bg-light" id="courses">
+    <div class="container py-4">
+      <div class="text-center max-w-700 mx-auto mb-4">
+        <span class="section-tag"><i class="bi bi-collection-play-fill me-1"></i> Academic Programs</span>
+        <h2 class="section-title">Industry-Recognized Computer Courses</h2>
+        <p class="text-secondary">Choose from foundational, diploma, programming, and accounting programs tailored for immediate career opportunities.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="d-flex justify-content-center flex-wrap gap-2 mb-4">
+        <button class="btn btn-sm btn-outline-navy rounded-pill px-3 active" data-course-filter="all">All Courses (9)</button>
+        <button class="btn btn-sm btn-outline-navy rounded-pill px-3" data-course-filter="foundation">Foundation</button>
+        <button class="btn btn-sm btn-outline-navy rounded-pill px-3" data-course-filter="professional">Professional</button>
+        <button class="btn btn-sm btn-outline-navy rounded-pill px-3" data-course-filter="development">Development</button>
+        <button class="btn btn-sm btn-outline-navy rounded-pill px-3" data-course-filter="finance">Finance & Accounts</button>
+        <button class="btn btn-sm btn-outline-navy rounded-pill px-3" data-course-filter="design">Creative Design</button>
+      </div>
+
+      <!-- Courses Grid Container (Rendered dynamically via app.js) -->
+      <div class="row g-4" id="coursesGrid">
+        <!-- Javascript injects courses here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       4. SYLLABUS BREAKDOWN SECTION
+       ========================================================================= -->
+  <section class="py-5" id="syllabus">
+    <div class="container py-4">
+      <div class="text-center max-w-700 mx-auto mb-5">
+        <span class="section-tag"><i class="bi bi-journal-bookmark-fill me-1"></i> Course Curriculum</span>
+        <h2 class="section-title">Detailed Module-Wise Syllabus Breakdown</h2>
+        <p class="text-secondary">Click any course below to inspect its comprehensive module structure, lab hours, specific software versions, and learning outcomes.</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <!-- Accordion Container (Rendered dynamically via app.js) -->
+          <div class="accordion accordion-spark-iit" id="syllabusAccordion">
+            <!-- JavaScript injects syllabus modules here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. ADMISSION FORM SECTION
+       ========================================================================= -->
+  <section class="py-5 bg-navy-subtle" id="admission">
+    <div class="container py-4">
+      <div class="row align-items-center">
+        <div class="col-lg-5 mb-5 mb-lg-0">
+          <span class="section-tag bg-white text-navy"><i class="bi bi-pencil-square me-1"></i> Admissions Portal</span>
+          <h2 class="section-title text-navy">Enroll for Upcoming Batches</h2>
+          <p class="text-secondary mb-4">
+            Secure your seat in our hands-on computer courses. Complete the application form to initiate registration. Our counseling team will review your eligibility, verify your documents, and assign your laboratory terminal.
+          </p>
+
+          <div class="bg-white p-4 rounded-4 border shadow-sm mb-4">
+            <h5 class="fw-bold text-navy mb-3"><i class="bi bi-stars text-gold me-2"></i>Admission Benefits:</h5>
+            <ul class="list-unstyled mb-0 text-secondary" style="font-size: 0.92rem;">
+              <li class="mb-2"><i class="bi bi-check2-circle text-primary me-2"></i> Free Course Study Material & Practical Lab Manual</li>
+              <li class="mb-2"><i class="bi bi-check2-circle text-primary me-2"></i> 1:1 Personal Computer Terminal in all Sessions</li>
+              <li class="mb-2"><i class="bi bi-check2-circle text-primary me-2"></i> Flexible Installment Options (Zero Cost EMI)</li>
+              <li class="mb-2"><i class="bi bi-check2-circle text-primary me-2"></i> Dedicated Placement Cell & Interview Assistance</li>
+              <li><i class="bi bi-check2-circle text-primary me-2"></i> ISO 9001:2015 QR-Verifiable Certificate</li>
+            </ul>
+          </div>
+
+          <div class="d-flex align-items-center gap-3 p-3 bg-white rounded-3 border">
+            <div class="fs-2 text-primary"><i class="bi bi-headset"></i></div>
+            <div>
+              <div class="fw-bold text-navy">Have questions before applying?</div>
+              <small class="text-muted">Call our admission desk directly: <a href="tel:+919876543210" class="fw-bold text-primary">+91 98765 43210</a></small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="form-corporate-card">
+            <div class="d-flex justify-content-between align-items-center border-bottom pb-3 mb-4">
+              <div>
+                <h4 class="fw-bold text-navy mb-0">Student Admission Registration</h4>
+                <small class="text-muted">Academic Session 2026-2027</small>
+              </div>
+              <span class="badge bg-success-subtle text-success border border-success-subtle px-3 py-2">
+                <i class="bi bi-shield-check me-1"></i> SSL Encrypted
+              </span>
+            </div>
+
+            <form id="admissionForm" novalidate>
+              <div class="row g-3">
+                <!-- Full Name -->
+                <div class="col-md-6">
+                  <label for="admissionFullName" class="form-label">Full Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="admissionFullName" placeholder="e.g. Ananya Sharma" required minlength="2">
+                  <div class="invalid-feedback">Please provide your full legal name.</div>
+                </div>
+
+                <!-- Email -->
+                <div class="col-md-6">
+                  <label for="admissionEmail" class="form-label">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control" id="admissionEmail" placeholder="e.g. ananya@gmail.com" required>
+                  <div class="invalid-feedback">Please provide a valid email address.</div>
+                </div>
+
+                <!-- Phone -->
+                <div class="col-md-6">
+                  <label for="admissionPhone" class="form-label">Phone Number (10 Digits) <span class="text-danger">*</span></label>
+                  <input type="tel" class="form-control" id="admissionPhone" placeholder="e.g. 9876543210" required pattern="[0-9]{10}">
+                  <div class="invalid-feedback">Please enter a valid 10-digit mobile number.</div>
+                </div>
+
+                <!-- Course Interested In -->
+                <div class="col-md-6">
+                  <label for="admissionCourse" class="form-label">Course Interested In <span class="text-danger">*</span></label>
+                  <select class="form-select" id="admissionCourse" required>
+                    <option value="" selected disabled>Loading courses...</option>
+                  </select>
+                  <div class="invalid-feedback">Please select the course you wish to enroll in.</div>
+                </div>
+
+                <!-- Preferred Batch Timing -->
+                <div class="col-md-6">
+                  <label for="admissionBatchTiming" class="form-label">Preferred Batch Timing <span class="text-danger">*</span></label>
+                  <select class="form-select" id="admissionBatchTiming" required>
+                    <option value="" selected disabled>Select Batch Timing *</option>
+                    <option value="Morning">Morning Batch (8:00 AM – 12:00 PM)</option>
+                    <option value="Afternoon">Afternoon Batch (12:00 PM – 4:00 PM)</option>
+                    <option value="Evening">Evening Batch (4:00 PM – 8:00 PM)</option>
+                  </select>
+                  <div class="invalid-feedback">Please select your preferred batch schedule.</div>
+                </div>
+
+                <!-- Educational Qualification -->
+                <div class="col-md-6">
+                  <label for="admissionQualification" class="form-label">Educational Qualification <span class="text-danger">*</span></label>
+                  <select class="form-select" id="admissionQualification" required>
+                    <option value="" selected disabled>Select Qualification *</option>
+                    <option value="10th Standard / Matriculation">10th Standard / Matriculation</option>
+                    <option value="12th Standard / Intermediate">12th Standard / Intermediate</option>
+                    <option value="Undergraduate / Bachelor's Degree">Undergraduate / Bachelor's Degree</option>
+                    <option value="Postgraduate / Master's Degree">Postgraduate / Master's Degree</option>
+                    <option value="Diploma / Polytechnic">Diploma / Polytechnic</option>
+                    <option value="Working Professional">Working Professional</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <div class="invalid-feedback">Please specify your educational qualification.</div>
+                </div>
+
+                <!-- Address -->
+                <div class="col-12">
+                  <label for="admissionAddress" class="form-label">Residential Address <span class="text-danger">*</span></label>
+                  <textarea class="form-control" id="admissionAddress" rows="2" placeholder="House/Flat No., Street, City, State, PIN Code" required minlength="5"></textarea>
+                  <div class="invalid-feedback">Please provide your complete residential address.</div>
+                </div>
+
+                <!-- Message / Query -->
+                <div class="col-12">
+                  <label for="admissionMessage" class="form-label">Career Goal or Any Query (Optional)</label>
+                  <textarea class="form-control" id="admissionMessage" rows="2" placeholder="Any specific requirements, installment inquiries, or software background..."></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-12 pt-2">
+                  <button type="submit" class="btn btn-navy w-100 py-3 fw-bold fs-6 shadow">
+                    <i class="bi bi-check2-circle me-2"></i> Submit Admission Application
+                  </button>
+                  <p class="text-center text-muted small mt-2 mb-0" style="font-size: 0.78rem;">
+                    <i class="bi bi-shield-lock-fill text-navy me-1"></i> Data will be securely registered in the Spark IIT Supabase database.
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. BRANCH / LOCATION SECTION
+       ========================================================================= -->
+  <section class="py-5" id="branch">
+    <div class="container py-4">
+      <div class="text-center max-w-700 mx-auto mb-5">
+        <span class="section-tag"><i class="bi bi-building-fill me-1"></i> Campus Location</span>
+        <h2 class="section-title">Visit Our State-of-the-Art Training Center</h2>
+        <p class="text-secondary">Strategically situated in the central institutional district with convenient metro and bus connectivity.</p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-5">
+          <div class="card-corporate h-100 justify-content-between">
+            <div>
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <div class="rounded-3 p-3 bg-navy text-white fs-4">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div>
+                  <h4 class="fw-bold mb-0 text-navy">Central Campus Branch</h4>
+                  <small class="text-muted">Spark IIT</small>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <div class="text-xs fw-bold text-uppercase text-muted mb-1" style="font-size: 0.78rem;">Physical Address:</div>
+                <p class="fw-semibold text-dark mb-0">
+                  Spark IIT Tower, Plot No. 42-B, Sector 14,<br>
+                  Institutional Education Hub, Near Central Metro Station,<br>
+                  New Delhi - 110001, India
+                </p>
+              </div>
+
+              <div class="mb-4">
+                <div class="text-xs fw-bold text-uppercase text-muted mb-2" style="font-size: 0.78rem;">Operating Lab Hours:</div>
+                <div class="table-responsive">
+                  <table class="table table-sm border small mb-0">
+                    <thead class="table-light">
+                      <tr>
+                        <th>Day</th>
+                        <th>Class & Lab Timings</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="fw-semibold">Monday – Friday</td>
+                        <td>8:00 AM – 7:30 PM</td>
+                      </tr>
+                      <tr>
+                        <td class="fw-semibold">Saturday</td>
+                        <td>8:00 AM – 6:00 PM (Doubt Sessions)</td>
+                      </tr>
+                      <tr>
+                        <td class="fw-semibold text-danger">Sunday</td>
+                        <td class="text-danger">Closed (Open for Exam Batches only)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <div class="text-xs fw-bold text-uppercase text-muted mb-1" style="font-size: 0.78rem;">Contact Helplines:</div>
+                <div class="d-flex flex-column gap-1">
+                  <a href="tel:+919876543210" class="text-navy fw-semibold"><i class="bi bi-telephone-fill text-primary me-2"></i>+91 98765 43210 / 011-23456789</a>
+                  <a href="https://wa.me/919876543210" target="_blank" class="text-success fw-semibold"><i class="bi bi-whatsapp me-2"></i>+91 98765 43210 (WhatsApp Query Desk)</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-3 border-top mt-3">
+              <a href="https://maps.google.com" target="_blank" class="btn btn-outline-navy w-100 btn-sm">
+                <i class="bi bi-box-arrow-up-right me-1"></i> Open in Google Maps App
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Maps Embed -->
+        <div class="col-lg-7">
+          <div class="map-container h-100">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.2687123901416!2d77.2090212!3d28.621743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b839846b%3A0xbddae70678d49a37!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Spark IIT Branch Location Map">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. GALLERY SECTION
+       ========================================================================= -->
+  <section class="py-5 bg-light" id="gallery">
+    <div class="container py-4">
+      <div class="text-center max-w-700 mx-auto mb-4">
+        <span class="section-tag"><i class="bi bi-images me-1"></i> Campus Life</span>
+        <h2 class="section-title">Spark IIT Training & Campus Gallery</h2>
+        <p class="text-secondary">Take a glimpse inside our multimedia computer laboratories, smart classrooms, student workshops, and certificate distribution convocations.</p>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="d-flex justify-content-center flex-wrap gap-2 mb-4 gallery-nav-pills">
+        <button class="nav-link active" data-gallery-filter="all">All Photos</button>
+        <button class="nav-link" data-gallery-filter="labs">Computer Labs</button>
+        <button class="nav-link" data-gallery-filter="classrooms">Classrooms</button>
+        <button class="nav-link" data-gallery-filter="events">Student Events</button>
+        <button class="nav-link" data-gallery-filter="certificates">Certificate Convocations</button>
+      </div>
+
+      <!-- Gallery Grid (Rendered dynamically via app.js) -->
+      <div class="row g-4" id="galleryGrid">
+        <!-- JavaScript injects gallery photos here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       8. TESTIMONIALS SECTION
+       ========================================================================= -->
+  <section class="py-5" id="testimonials">
+    <div class="container py-4">
+      <div class="text-center max-w-700 mx-auto mb-5">
+        <span class="section-tag"><i class="bi bi-star-fill text-gold me-1"></i> Alumni Success</span>
+        <h2 class="section-title">What Our Past Students Say</h2>
+        <p class="text-secondary">Read authentic reviews and career milestones from students who transformed their vocational paths at Spark IIT.</p>
+      </div>
+
+      <!-- Testimonials Grid (Rendered dynamically via app.js) -->
+      <div class="row g-4" id="testimonialsGrid">
+        <!-- JavaScript injects testimonials here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       9. PLACEMENT & CERTIFICATION SHOWCASE
+       ========================================================================= -->
+  <section class="py-5 bg-white border-top border-bottom" id="placement">
+    <div class="container py-4">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <span class="section-tag"><i class="bi bi-patch-check-fill text-gold me-1"></i> Industry Credentials</span>
+          <h2 class="section-title">Govt. & Industry Recognized Certification</h2>
+          <p class="text-secondary mb-4">
+            Upon successful completion of theory and practical evaluations, each student is awarded a registered Spark IIT certificate. Each credential contains a unique registration serial number and an instant online verification QR code accepted across private and public sectors.
+          </p>
+
+          <div class="row g-3 mb-4">
+            <div class="col-sm-6">
+              <div class="border rounded-3 p-3 bg-light">
+                <div class="fw-bold text-navy mb-1"><i class="bi bi-qr-code-scan text-primary me-2"></i>Online QR Verification</div>
+                <small class="text-muted">Employers can verify authenticity immediately via the student verification portal.</small>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="border rounded-3 p-3 bg-light">
+                <div class="fw-bold text-navy mb-1"><i class="bi bi-building-check text-primary me-2"></i>ISO 9001:2015 Quality</div>
+                <small class="text-muted">Standardized educational syllabus audited annually for institutional excellence.</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-3 bg-navy-subtle rounded-3 border border-primary-subtle text-navy small">
+            <strong><i class="bi bi-award-fill text-gold me-1"></i> 120+ Corporate Hiring Partners:</strong> Our students are placed in top logistics, accounting, IT agencies, hospitals, and multinational service firms.
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="p-4 bg-light rounded-4 border shadow-sm text-center position-relative">
+            <!-- Simulated Certificate Card -->
+            <div class="bg-white border-2 border-primary rounded-3 p-4 shadow-sm mx-auto position-relative" style="max-width: 480px; border-style: double;">
+              <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-3">
+                <div class="text-navy fw-bold text-xs" style="font-size: 0.75rem;">Spark IIT</div>
+                <span class="badge bg-navy text-white text-xs">ISO 9001:2015</span>
+              </div>
+              <h5 class="fw-bold text-navy mb-1" style="font-family: var(--font-heading);">CERTIFICATE OF VOCATIONAL EXCELLENCE</h5>
+              <p class="text-muted text-xs mb-3" style="font-size: 0.8rem;">This is to certify that</p>
+              <h4 class="fw-bold text-dark border-bottom pb-2 mb-2">STUDENT CANDIDATE</h4>
+              <p class="text-muted small mb-2">has successfully completed the comprehensive training in</p>
+              <h6 class="fw-bold text-primary mb-3">DIPLOMA IN COMPUTER APPLICATIONS (DCA)</h6>
+              <div class="d-flex justify-content-between align-items-center pt-2 border-top text-xs text-muted" style="font-size: 0.75rem;">
+                <span>Reg: Spark IIT/2026/8942</span>
+                <span class="text-success"><i class="bi bi-check-circle-fill"></i> QR VERIFIED</span>
+                <span>Controller of Exams</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       10. CALL TO ACTION BANNER
+       ========================================================================= -->
+  <section class="container my-5">
+    <div class="cta-banner">
+      <div class="row align-items-center">
+        <div class="col-lg-8 mb-4 mb-lg-0">
+          <span class="badge bg-gold text-dark px-3 py-1 mb-2 font-sans fw-bold">ADMISSIONS CLOSING SOON</span>
+          <h2 class="display-6 fw-bold text-white mb-2">Ready to Launch Your Professional Computer Career?</h2>
+          <p class="text-light mb-0" style="font-size: 1.05rem;">
+            Join over 12,500 successful alumni. Register online today and get your batch timing confirmed within 24 hours.
+          </p>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a href="#admission" class="btn btn-white text-navy px-4 py-3 fw-bold shadow">
+            <i class="bi bi-pencil-square me-2"></i> Enroll Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       11. FAQ SECTION
+       ========================================================================= -->
+  <section class="py-5" id="faq">
+    <div class="container py-4">
+      <div class="text-center max-w-700 mx-auto mb-5">
+        <span class="section-tag"><i class="bi bi-question-circle-fill me-1"></i> Common Questions</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="text-secondary">Have questions regarding admissions, batch schedules, fees, or certification? Find quick answers below.</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          <!-- FAQ Accordion Container (Rendered dynamically via app.js) -->
+          <div class="accordion" id="faqAccordion">
+            <!-- JavaScript injects FAQs here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       12. CONTACT US SECTION
+       ========================================================================= -->
+  <section class="py-5 bg-light" id="contact">
+    <div class="container py-4">
+      <div class="text-center max-w-700 mx-auto mb-5">
+        <span class="section-tag"><i class="bi bi-envelope-fill me-1"></i> Get In Touch</span>
+        <h2 class="section-title">Contact Spark IIT</h2>
+        <p class="text-secondary">Have an inquiry or wish to schedule a campus tour? Send us a message or call our helpdesk.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+          <div class="form-corporate-card h-100">
+            <h4 class="fw-bold text-navy mb-3">Send Us a Direct Message</h4>
+            <p class="text-muted small mb-4">Inquiries are logged directly into our Supabase contact table and responded to within 1 business day.</p>
+
+            <div id="contactSuccessAlert" class="alert alert-success d-none mb-3">
+              <i class="bi bi-check-circle-fill me-2"></i> Thank you! Your message has been safely received. Our counselor will respond promptly.
+            </div>
+
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="contactName" class="form-label">Your Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="contactName" placeholder="e.g. Rahul Verma" required minlength="2">
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="contactEmail" class="form-label">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control" id="contactEmail" placeholder="e.g. rahul@example.com" required>
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="contactPhone" class="form-label">Phone Number (Optional)</label>
+                  <input type="tel" class="form-control" id="contactPhone" placeholder="e.g. 9876543210">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="contactSubject" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="contactSubject" placeholder="e.g. Tally Course Timings">
+                </div>
+
+                <div class="col-12">
+                  <label for="contactMessage" class="form-label">Your Message <span class="text-danger">*</span></label>
+                  <textarea class="form-control" id="contactMessage" rows="4" placeholder="How can our counseling team assist you?" required minlength="5"></textarea>
+                  <div class="invalid-feedback">Please write your inquiry (at least 5 characters).</div>
+                </div>
+
+                <div class="col-12 pt-2">
+                  <button type="submit" class="btn btn-navy px-4 py-3 fw-bold">
+                    <i class="bi bi-send-fill me-2"></i> Send Inquiry Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Contact Information & Map -->
+        <div class="col-lg-5">
+          <div class="card-corporate h-100 justify-content-between">
+            <div>
+              <h4 class="fw-bold text-navy mb-4">Official Contact Details</h4>
+
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <div class="p-2 rounded-2 bg-navy-subtle text-navy fs-5"><i class="bi bi-geo-alt-fill"></i></div>
+                <div>
+                  <div class="fw-bold text-navy">Institute Address</div>
+                  <div class="text-secondary small">Spark IIT Tower, Plot No. 42-B, Sector 14, Institutional Area, New Delhi - 110001</div>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <div class="p-2 rounded-2 bg-navy-subtle text-navy fs-5"><i class="bi bi-telephone-fill"></i></div>
+                <div>
+                  <div class="fw-bold text-navy">Helpline & Admissions</div>
+                  <div class="text-secondary small">+91 98765 43210 / 011-23456789</div>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-start gap-3 mb-3">
+                <div class="p-2 rounded-2 bg-navy-subtle text-navy fs-5"><i class="bi bi-envelope-fill"></i></div>
+                <div>
+                  <div class="fw-bold text-navy">Official Email</div>
+                  <div class="text-secondary small">admissions@spark-iit.org | info@spark-iit.org</div>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-start gap-3 mb-4">
+                <div class="p-2 rounded-2 bg-navy-subtle text-navy fs-5"><i class="bi bi-clock-fill"></i></div>
+                <div>
+                  <div class="fw-bold text-navy">Counseling Hours</div>
+                  <div class="text-secondary small">Monday to Saturday: 8:00 AM – 7:30 PM</div>
+                </div>
+              </div>
+
+              <!-- Social Media Links -->
+              <div class="pt-3 border-top">
+                <div class="text-xs fw-bold text-uppercase text-muted mb-2" style="font-size: 0.78rem;">Connect With Us:</div>
+                <div class="d-flex gap-2">
+                  <a href="https://facebook.com" target="_blank" class="social-icon-btn bg-primary text-white" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                  <a href="https://twitter.com" target="_blank" class="social-icon-btn bg-dark text-white" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                  <a href="https://linkedin.com" target="_blank" class="social-icon-btn bg-primary text-white" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://instagram.com" target="_blank" class="social-icon-btn bg-danger text-white" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                  <a href="https://youtube.com" target="_blank" class="social-icon-btn bg-danger text-white" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mini Map Preview -->
+            <div class="mt-4 pt-3 border-top">
+              <div class="rounded-3 overflow-hidden border" style="height: 140px;">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.2687123901416!2d77.2090212!3d28.621743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b839846b%3A0xbddae70678d49a37!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                  width="100%" 
+                  height="100%" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy">
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FOOTER SECTION
+       ========================================================================= -->
+  <footer class="footer-corporate">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Brand Info -->
+        <div class="col-lg-4 col-md-6">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <div class="brand-badge" style="width: 40px; height: 40px; font-size: 1.2rem;">
+              <i class="bi bi-mortarboard-fill"></i>
+            </div>
+            <div>
+              <h5 class="text-white mb-0 fw-bold" style="font-size: 1.05rem;">Spark IIT</h5>
+              <span class="text-white-50 text-xs">ISO 9001:2015 Certified Vocational Body</span>
+            </div>
+          </div>
+          <p class="text-secondary small mb-3">
+            Spark IIT is a dedicated vocational training institute delivering high-impact, practical computer education for students, job seekers, and corporate professionals.
+          </p>
+          <div class="d-flex gap-2">
+            <span class="badge bg-secondary-subtle text-light border border-secondary">ISO 9001:2015</span>
+            <span class="badge bg-secondary-subtle text-light border border-secondary">100% Practical</span>
+            <span class="badge bg-secondary-subtle text-light border border-secondary">Govt. Aligned</span>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-lg-2 col-md-6">
+          <h6 class="footer-heading">Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="#home"><i class="bi bi-chevron-right text-gold"></i> Home</a></li>
+            <li><a href="#about"><i class="bi bi-chevron-right text-gold"></i> About Us</a></li>
+            <li><a href="#courses"><i class="bi bi-chevron-right text-gold"></i> Courses</a></li>
+            <li><a href="#syllabus"><i class="bi bi-chevron-right text-gold"></i> Syllabus</a></li>
+            <li><a href="#branch"><i class="bi bi-chevron-right text-gold"></i> Branch Location</a></li>
+            <li><a href="#gallery"><i class="bi bi-chevron-right text-gold"></i> Campus Gallery</a></li>
+            <li><a href="#admission"><i class="bi bi-chevron-right text-gold"></i> Admissions</a></li>
+          </ul>
+        </div>
+
+        <!-- Courses List -->
+        <div class="col-lg-3 col-md-6">
+          <h6 class="footer-heading">Popular Programs</h6>
+          <ul class="footer-links">
+            <li><a href="#courses"><i class="bi bi-laptop text-gold"></i> Basic Computer Course (CCC)</a></li>
+            <li><a href="#courses"><i class="bi bi-mortarboard text-gold"></i> Diploma in Computer Apps (DCA)</a></li>
+            <li><a href="#courses"><i class="bi bi-file-earmark-spreadsheet text-gold"></i> MS Office Suite</a></li>
+            <li><a href="#courses"><i class="bi bi-calculator text-gold"></i> Tally with GST & E-Way</a></li>
+            <li><a href="#courses"><i class="bi bi-globe text-gold"></i> Web Designing & HTML5</a></li>
+            <li><a href="#courses"><i class="bi bi-code-square text-gold"></i> Python Programming</a></li>
+            <li><a href="#courses"><i class="bi bi-graph-up text-gold"></i> Advanced Excel Analytics</a></li>
+          </ul>
+        </div>
+
+        <!-- Branch & Timings -->
+        <div class="col-lg-3 col-md-6">
+          <h6 class="footer-heading">Head Office Branch</h6>
+          <p class="text-secondary small mb-2">
+            <i class="bi bi-geo-alt-fill text-gold me-2"></i> Plot No. 42-B, Sector 14, Institutional Area, New Delhi - 110001
+          </p>
+          <p class="text-secondary small mb-2">
+            <i class="bi bi-telephone-fill text-gold me-2"></i> +91 98765 43210
+          </p>
+          <p class="text-secondary small mb-3">
+            <i class="bi bi-envelope-fill text-gold me-2"></i> admissions@spark-iit.org
+          </p>
+          <div class="p-2 rounded bg-dark border border-secondary small text-light">
+            <i class="bi bi-clock-history text-gold me-1"></i> <strong>Batches:</strong> Mon – Sat: 8 AM to 8 PM
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <div>
+          &copy; 2026 Spark IIT. All Rights Reserved.
+        </div>
+        <div class="d-flex gap-3 text-secondary text-xs">
+          <span>Privacy Policy</span>
+          <span>•</span>
+          <span>Terms of Admission</span>
+          <span>•</span>
+          <span>Student Code of Conduct</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MODAL 1: ADMISSION SUCCESS CONFIRMATION MODAL
+       ========================================================================= -->
+  <div class="modal fade" id="admissionSuccessModal" tabindex="-1" aria-labelledby="admissionSuccessModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+        <div class="bg-navy p-4 text-center text-white">
+          <div class="rounded-circle bg-white text-navy d-inline-flex align-items-center justify-content-center mb-3 shadow" style="width: 68px; height: 68px; font-size: 2.2rem;">
+            <i class="bi bi-check-lg text-success"></i>
+          </div>
+          <h4 class="fw-bold mb-1 text-white">Admission Application Received!</h4>
+          <p class="text-white-50 small mb-0">Spark IIT</p>
+        </div>
+        <div class="modal-body p-4">
+          <div class="alert alert-success d-flex align-items-center gap-2 mb-3">
+            <i class="bi bi-shield-check fs-4"></i>
+            <div>
+              <strong>Application Successfully Stored!</strong>
+              <div class="small">Data has been saved in the Spark IIT database table <code>admissions</code>.</div>
+            </div>
+          </div>
+
+          <div class="border rounded-3 p-3 bg-light mb-4">
+            <div class="row g-2 text-sm" style="font-size: 0.9rem;">
+              <div class="col-5 text-muted">Application ID:</div>
+              <div class="col-7 fw-bold text-navy" id="confirmationRefId">SPARK-2026-REG</div>
+
+              <div class="col-5 text-muted">Student Name:</div>
+              <div class="col-7 fw-semibold text-dark" id="confirmationStudentName">Applicant Name</div>
+
+              <div class="col-5 text-muted">Course Chosen:</div>
+              <div class="col-7 fw-semibold text-navy" id="confirmationCourseName">Computer Course</div>
+
+              <div class="col-5 text-muted">Batch Timing:</div>
+              <div class="col-7 text-dark" id="confirmationBatch">Morning Batch</div>
+
+              <div class="col-5 text-muted">Next Steps:</div>
+              <div class="col-7 text-success fw-semibold">Counselor verification call within 24h</div>
+            </div>
+          </div>
+
+          <p class="text-muted small text-center mb-0">
+            A confirmation has also been scheduled. Please keep your Application ID handy for admission processing and fee receipt generation.
+          </p>
+        </div>
+        <div class="modal-footer bg-light border-0 justify-content-center p-3">
+          <button type="button" class="btn btn-navy px-4" data-bs-dismiss="modal">
+            <i class="bi bi-check2"></i> Close & Continue
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       MODAL 2: GALLERY IMAGE LIGHTBOX MODAL
+       ========================================================================= -->
+  <div class="modal fade" id="galleryLightboxModal" tabindex="-1" aria-labelledby="lightboxTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content border-0 shadow-lg bg-dark text-white rounded-4 overflow-hidden">
+        <div class="modal-header border-0 pb-0">
+          <h5 class="modal-title fw-bold text-white" id="lightboxTitle">Campus Gallery Image</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center p-3">
+          <img src="" alt="Gallery Image" id="lightboxImage" class="img-fluid rounded-3 shadow" style="max-height: 520px; width: auto; object-fit: contain;">
+          <p class="mt-3 text-light small px-3 mb-0" id="lightboxCaption">Image Caption Details</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       MODAL 3: ADMIN INQUIRIES & ADMISSIONS VIEWER MODAL
+       ========================================================================= -->
+  <div class="modal fade" id="adminViewerModal" tabindex="-1" aria-labelledby="adminViewerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+        <div class="modal-header bg-navy text-white">
+          <div class="d-flex align-items-center gap-2">
+            <i class="bi bi-shield-lock-fill fs-4"></i>
+            <div>
+              <h5 class="modal-title fw-bold text-white mb-0" id="adminViewerModalLabel">Spark IIT System Registry: Stored Admissions</h5>
+              <small class="text-white-50">Direct mirror of the Supabase <code>admissions</code> table</small>
+            </div>
+          </div>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4" id="adminAdmissionsList">
+          <div class="text-center py-4">
+            <div class="spinner-border text-primary"></div>
+            <p class="mt-2 text-muted">Loading registrations...</p>
+          </div>
+        </div>
+        <div class="modal-footer bg-light">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5.3 JS Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Application Logic & Data Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/chatbot.js"></script>
+</body>
+</html>

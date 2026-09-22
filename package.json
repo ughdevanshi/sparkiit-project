@@ -1,0 +1,20 @@
+{
+  "name": "spark-iit-institute",
+  "version": "1.0.0",
+  "description": "Spark IIT - Corporate Website & Backend",
+  "scripts": {
+    "build": "npm --prefix backend install",
+    "postinstall": "npm --prefix backend install",
+    "start": "node backend/src/server.js",
+    "dev": "node --watch backend/src/server.js"
+  },
+  "keywords": [
+    "vocational-training",
+    "computer-courses",
+    "bootstrap5",
+    "supabase",
+    "express"
+  ],
+  "author": "Spark IIT",
+  "license": "ISC"
+}
